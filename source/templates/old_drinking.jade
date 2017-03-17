@@ -1,0 +1,28 @@
+extends ../../node_modules/jade-bootstrap/components/accordion
+
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/css/index.css')
+    title Pearlian.net
+  body
+    .header
+      h1.page-title PEARLIAN.NET
+
+    .main-content
+      block content
+
+      ul
+        li Hej
+          Content
+        li Hå
+        li Ludentå
+
+      +accordion("sample")
+        +accordion-item-primary("Hej","sample","true")
+          |  This is first accordion content
+        +accordion-item-default("Hå","sample")
+          |  This is second accordion content
+
+    .footer
+      p If you're under 18 and drinking alcohol, you're just stupid.
