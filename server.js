@@ -9,7 +9,7 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var path = require('path');
 
-var albinso = "http://www.albinso.com"
+var albinso = "http://www.albinso.com";
 
 var url = 'mongodb://127.0.0.1:3000/test';
 MongoClient.connect(url, function(err, db) {
