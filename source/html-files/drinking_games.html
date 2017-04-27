@@ -1,30 +1,65 @@
-<head>
-	<title>Drinking Games</title>
-</head>
-	<body BGCOLOR="#00FF00">
-		<center>
-			<h1>Heyooo!</h1>
-			<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAkhAAAAJGYyMzQ2NWI3LWJhZmEtNGZmZC05MjQ0LTRhMmE0NjUyNTA5Yw.jpg">			
-		</center> 
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			ul {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    width: 200px;
+			    background-color: #f1f1f1;
+			}
 
-		<h1>This is a size "1" heading</h1>
+			li a {
+			    display: block;
+			    color: #000;
+			    padding: 8px 16px;
+			    text-decoration: none;
+			}
 
-		<h2>This is a size "2" heading</h2>
+			li a.active {
+			    background-color: #4CAF50;
+			    color: white;
+			}
 
-		<h3>This is a size "3" heading</h3>
+			li a:hover:not(.active) {
+			    background-color: #555;
+			    color: white;
+			}
+		</style>
+	</head>
+	<body>
 
-		<h4>This is a size "4" heading</h4>
+		<h2>Vertical Navigation Bar</h2>
 
-		<h5>This is a size "5" heading</h5>
+		<ul>
+		  <li><a class="active" href="#home">Home</a></li>
+		  <li><a href="forum_test">TO FIX</a></li>
+		  <li><a href="/">Back to mainpage</a></li>
+		</ul>
 
-		<h6>This is a size "6" heading</h6>
+		<h2> Drinking games </h2>
 
-		<center>
+		<h3> The boat </h3>
 
-			<h4>This is a link
-				<a href="//www.google.com">Google</a>
-			</h4>
+		The aim of the game is quite simple: the playing player needs to take itself from one end of the diamond to the other.
 
-		</center>
+		<p>
 
-</body>
+		The layout of the game is that you make a diamond, preferably a "four wide"-diamond but you can do it with any dimension you'd like basically. You then distribute the cards evenly throughout the diamond, with the remaining cards put in the back end of the diamond. For 52 cards with a "four wide"-diamond there will be stacks of three cards with four remaining, which best would be put in the last two rows and in the middle of the 3rd last row.
+
+		<p>
+
+		If the dimension of the diamond is smaller you might want to decrease the number of cards in play because just making the diamond smaller won't affect the length of the play and might even prolong the it.
+
+		<p>
+
+		The rules of the game is that you turn over one card in the first avilable row (multiple choices for most rows). When a row is out of cards the next row is considered the first row.
+		When the first card is turned over the playing player will guess if the next card is higher, lower or the same as the current card. If the player guesses correct it may continue and choose a card in the next row on which to guess on. If not the player "must" take as many sips as the number of the row it guessed wrong on (the absolute index and not the relative index for the row).
+
+		<p>
+
+		The player must choose its next card as one in the next row connected to the previous one. So to win from the beginning there will be seven cards and six guesses involved.
+
+	</body>
+</html>
