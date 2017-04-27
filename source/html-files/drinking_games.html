@@ -26,6 +26,11 @@
 			    background-color: #555;
 			    color: white;
 			}
+
+			alf {
+				font-size: 1.25em;
+				font-weight: bold;
+			}
 		</style>
 	</head>
 	<body>
@@ -33,33 +38,61 @@
 		<h2>Vertical Navigation Bar</h2>
 
 		<ul>
-		  <li><a class="active" href="#home">Home</a></li>
+		  <li><a class="active" href="drinking_games">Home</a></li>
 		  <li><a href="forum_test">TO FIX</a></li>
 		  <li><a href="/">Back to mainpage</a></li>
 		</ul>
 
 		<h2> Drinking games </h2>
 
-		<h3> The boat </h3>
+		<details>
+			<summary> <alf> The boat </alf> </summary>
 
-		The aim of the game is quite simple: the playing player needs to take itself from one end of the diamond to the other.
+			<p>
+
+			The aim of the game is quite simple: the playing player needs to take itself from one end of the diamond to the other.
+
+			<p>
+
+			The layout of the game is that you make a diamond, preferably a "four wide"-diamond but you can do it with any dimension you'd like basically. You then distribute the cards evenly throughout the diamond, with the remaining cards put in the back end of the diamond. For 52 cards with a "four wide"-diamond there will be stacks of three cards with four remaining, which best would be put in the last two rows and in the middle of the 3rd last row.
+
+			<p>
+
+			If the dimension of the diamond is smaller you might want to decrease the number of cards in play because just making the diamond smaller won't affect the length of the play and might even prolong the it.
+
+			<p>
+
+			The rules of the game is that you turn over one card in the first avilable row (multiple choices for most rows). When a row is out of cards the next row is considered the first row.
+			When the first card is turned over the playing player will guess if the next card is higher, lower or the same as the current card. If the player guesses correct it may continue and choose a card in the next row on which to guess on. If not the player "must" take as many sips as the number of the row it guessed wrong on (the absolute index and not the relative index for the row).
+
+			<p>
+
+			The player must choose its next card as one in the next row connected to the previous one. So to win from the beginning there will be seven cards and six guesses involved.
+		</details>
 
 		<p>
 
-		The layout of the game is that you make a diamond, preferably a "four wide"-diamond but you can do it with any dimension you'd like basically. You then distribute the cards evenly throughout the diamond, with the remaining cards put in the back end of the diamond. For 52 cards with a "four wide"-diamond there will be stacks of three cards with four remaining, which best would be put in the last two rows and in the middle of the 3rd last row.
+		<details>
+			<summary> <alf> Three man </alf> </summary>
 
-		<p>
+			<p>
 
-		If the dimension of the diamond is smaller you might want to decrease the number of cards in play because just making the diamond smaller won't affect the length of the play and might even prolong the it.
+			Required: Two six-dice and probably a pen and paper to write down posssible added rules
 
-		<p>
+			<p>
 
-		The rules of the game is that you turn over one card in the first avilable row (multiple choices for most rows). When a row is out of cards the next row is considered the first row.
-		When the first card is turned over the playing player will guess if the next card is higher, lower or the same as the current card. If the player guesses correct it may continue and choose a card in the next row on which to guess on. If not the player "must" take as many sips as the number of the row it guessed wrong on (the absolute index and not the relative index for the row).
+			Before the game starts a Three Man needs to be appointed. This is done by each person rolling the dice and the first one to roll a three is Three Man. How to decided which one rolls first is up to the reader. The player to the left of the Three Man goes first.
 
-		<p>
+			<p>
 
-		The player must choose its next card as one in the next row connected to the previous one. So to win from the beginning there will be seven cards and six guesses involved.
+			If the roll is a total of 7 then the player to the right drinks.
+			<br>
+			If the roll is a total of 9 then the player to the left drinks.
+			<br>
+			If the sum or one of the dice is 3 then the Three Man drinks (could be combined with other rules).
+			<br>
+			If someone rolls a double (ie 1-1) then they get to decide a new rule.
+		</details>
 
 	</body>
 </html>
